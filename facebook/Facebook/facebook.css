@@ -1,17 +1,25 @@
 body{
     margin:0
 }
+.corpo{
+
+        background-color:#f0f2f5;
+}
 .container{
-    background-color:#f0f2f5;
     display:flex;
+    width:980px;
+    margin:0 auto;
 
 }
 section{
-    width:50%;
+    width:60%;
     padding-top:100px;
 }
+.section2{
+    width:40%;
+}
 .logRecen{
-    padding-left:190px;
+
 
 }
 .logo{
@@ -92,16 +100,24 @@ section{
     background-color: #ffffff;
     text-align:center;
     margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom:24px;
 }
 .entrada{
-    padding:10px;
+    padding-top:10px;
+    height:133px;
 }
 .email{
     padding: 6px 6px;
 }
 #email{
     width:320px;
-    padding:14px 16px 14px 16px
+    padding:14px 16px 14px 16px;
+
+}
+input{
+    font-size:17px;
+    border-radius:6px;
 }
 .senha{
     padding:6px 6px;
@@ -110,13 +126,18 @@ section{
     width:320px;
     padding:14px 16px 14px 16px
 }
+.bot{
+    padding-top:6px;
+}
 .botEnv{
     width:355px;
     padding:14px 16px 14px 16px;
 }
 .esqueci{
     display:block;
-    margin: 16px 16px;
+    margin-top: 16px;
+    font-size:14px;
+    font-family: SFProDisplay Arial, Helvetica, sans-serif;
 }
 .traço1{
     border: 1px solid #dadde1;
