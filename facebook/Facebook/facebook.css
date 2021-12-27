@@ -128,29 +128,78 @@ section{
 #email:focus::placeholder{
     color:#c4c3c9
 }
-input{
+#email{
     font-size:17px;
     border-radius:6px;
     border: 0.5px solid #dddfe2;
     font-family: Arial, Helvetica, sans-serif;
+    caret-color: #1877f2;
 
 }
 .senha{
-    padding:6px 6px;
+    margin:6px 6px;
+
 }
 #senha{
+    width:300px;
+    height:22px;
+    float:left;
+    border:none;
+    caret-color: #1877f2;
+    font-size:17px;
+    padding:0px;
+}
+.senha{
+    display:inline-block;
+    padding: 14px 16px;
+    border: 0.5px solid #dddfe2;
+    border-radius:6px;
+}
+.senha1{
     width:330px;
-    padding:15px 16px;
+}
+#senha:focus{
+    outline: none;
+
 }
 #senha::placeholder{
     color:#9094b4
 }
-#senha:focus{
-    outline: none;
-    border:1px solid #1877f2;
-}
 #senha:focus::placeholder{
     color:#c4c3c9
+}
+.view{
+    position:relative;
+
+}
+.olho{
+    border-radius: 50%;
+    height: 22px;
+    float:right;
+    position:relative;
+    right:-12px;
+    width: 22px;
+    background-image:url('/facebook/Facebook/img/olhoFbbarra.png');
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+.olho:hover{
+    background-color:#f2f2f2
+}
+.olho2{
+    border-radius: 50%;
+    height: 22px;
+    float:right;
+    position:relative;
+    right:-12px;
+    width: 22px;
+    background-image:url('/facebook/Facebook/img/olhoFb.png');
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.olho2:hover{
+    background-color:#f2f2f2
 }
 .bot{
     padding-top:6px;
