@@ -1,2 +1,0 @@
-#1c1e21 font
-#f0f2f5 fundo
